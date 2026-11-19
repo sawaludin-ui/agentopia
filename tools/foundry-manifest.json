@@ -1,0 +1,10 @@
+{
+  "url": "https://github.com/foundry-rs/foundry/releases/download/v1.5.1/foundry_v1.5.1_win32_amd64.zip",
+  "sha256": "293fedd9ad45eb9d774008815dbda820bddd3c85cab3baf55a0be3775e86d5ae",
+  "files": {
+    "anvil.exe": "20a779ccbf38961cd59c710a41a40cdaae3104738fc58071fd9ad05b7ffe7412",
+    "cast.exe": "12c936efbf93b5e3faeb1ad345daee345fc7215df0bc8892f0b854ece62445f2",
+    "chisel.exe": "f139f7efcd1b346a3f61dea32470ed8b395583168b11f9c6d3705d77c7935186",
+    "forge.exe": "63b398400253a875c7b07c30e10e4f3051b1fae274e19fc94fb61fb6f1086e96"
+  }
+}

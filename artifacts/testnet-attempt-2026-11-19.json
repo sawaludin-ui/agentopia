@@ -1,0 +1,25 @@
+{
+  "generatedAtUTC": "2026-11-19T16:47:54.721087+00:00",
+  "target": "BSC Testnet",
+  "expectedChainId": 97,
+  "rpc": "https://data-seed-prebsc-1-s1.bnbchain.org:8545",
+  "broadcastRequested": false,
+  "status": "BLOCKED",
+  "preflight": {
+    "chainId": null,
+    "blockNumber": null,
+    "foundry": {
+      "forge": false,
+      "cast": false
+    },
+    "wallet": null,
+    "balanceWei": null
+  },
+  "failures": [
+    "forge: not installed",
+    "cast: not installed",
+    "RPC unavailable: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+    "Test wallet cannot be read without cast"
+  ],
+  "deployments": {}
+}

@@ -1,0 +1,13 @@
+{
+  "action": "setOracle",
+  "contract": "0x76b2fd65304a780bb46922a1e05c14848f6d7582",
+  "newOracle": "0x9e67788fbF44c0ADd9C918E86F03F4334A6AD76E",
+  "txHash": "0xc8a55f4fcb9b52f9e3b3f22b79e22e3725936214bf05546110459d3843cf911d",
+  "block": 134552599,
+  "blockTimeWib": "2026-11-20 01:38:15",
+  "gasUsed": 30721,
+  "status": "SUCCESS",
+  "oracleVerifiedOnChain": "0x9e67788fbf44c0add9c918e86f03f4334a6ad76e",
+  "explorer": "https://bscscan.com/tx/0xc8a55f4fcb9b52f9e3b3f22b79e22e3725936214bf05546110459d3843cf911d",
+  "consent": "BOZ: yes, set oracle (20 Nov 2026)"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "rpc": "https://bsc-rpc.publicnode.com",
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": "0xd7d8f"
+    }
+  },
+  {
+    "rpc": "https://bsc-dataseed.bnbchain.org",
+    "response": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": "0xd7d8f"
+    }
+  }
+]

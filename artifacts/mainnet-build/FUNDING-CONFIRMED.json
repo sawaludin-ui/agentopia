@@ -1,0 +1,16 @@
+{
+  "purpose": "fund fresh game-server oracle wallet from ferta.ai (BAW w001)",
+  "txHash": "0xb5d4d565e0abc1da812d28ec344ce4573fd53e5a2beebbb8042a7b6fce9c3993",
+  "block": 134552079,
+  "blockTimeWib": "2026-11-20 01:34:21",
+  "from": "0x607cF25614065179a9238705E03E6590C082F56d",
+  "to": "0x9e67788fbF44c0ADd9C918E86F03F4334A6AD76E",
+  "amountBNB": 0.0005,
+  "gasUsed": 21000,
+  "feeBNB": 1.08250863e-06,
+  "status": "SUCCESS",
+  "newWalletBalanceBNB": 0.0005,
+  "fertaBalanceAfterBNB": 0.001099874279861218,
+  "explorer": "https://bscscan.com/tx/0xb5d4d565e0abc1da812d28ec344ce4573fd53e5a2beebbb8042a7b6fce9c3993",
+  "consent": "BOZ: gas (20 Nov 2026) \u2014 retry after address-book addition"
+}

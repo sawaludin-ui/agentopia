@@ -1,0 +1,21 @@
+Compiling 22 files with Solc 0.8.24
+Solc 0.8.24 finished in 3.08s
+Compiler run successful with warnings:
+Warning (2018): Function state mutability can be restricted to view
+  --> test/AgentopiaCore.t.sol:37:5:
+   |
+37 |     function _voucher(uint256 amount,bytes32 aid,uint256 deadline) internal returns(bytes memory) {
+   |     ^ (Relevant source part starts here and spans across multiple lines).
+
+
+Ran 7 tests for test/AgentopiaCore.t.sol:AgentopiaCoreTest
+[PASS] testExpiredContributionFails() (gas: 53009)
+[PASS] testFuzzContributionBound(uint256) (runs: 256, μ: 43336, ~: 43337)
+[PASS] testHolderRequiredOnEveryContribution() (gas: 48767)
+[PASS] testNoUnauthorizedOracleChange() (gas: 13296)
+[PASS] testOnlyAgentHolderCanJoin() (gas: 52506)
+[PASS] testSignedContributionAndReplayRejected() (gas: 132360)
+[PASS] testTamperedContributionFails() (gas: 61250)
+Suite result: ok. 7 passed; 0 failed; 0 skipped; finished in 57.18ms (112.28ms CPU time)
+
+Ran 1 test suite in 96.25ms (57.18ms CPU time): 7 tests passed, 0 failed, 0 skipped (7 total tests)
