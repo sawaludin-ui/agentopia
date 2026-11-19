@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.vercel/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+artifacts/
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+tools/
+*.zip
