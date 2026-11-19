@@ -55,7 +55,7 @@ class TxBody(BaseModel):
 
 @dataclass
 class Config:
-    db_path:str=os.getenv('AGENTOPIA_DB',str(ROOT/'agentopia.sqlite'))
+    db_path:str=os.getenv('AGENTOPIA_DB','/tmp/agentopia.sqlite')
     environment:str=os.getenv('AGENTOPIA_ENV','development')
     registry_mode:str=os.getenv('AGENTOPIA_REGISTRY_MODE','mock')
     rpc_url:str=os.getenv('AGENTOPIA_RPC_URL','')
