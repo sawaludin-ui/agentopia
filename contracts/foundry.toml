@@ -1,0 +1,8 @@
+[profile.default]
+solc_version = '0.8.30'
+evm_version = 'paris'
+src = 'src'
+test = 'test'
+optimizer = true
+optimizer_runs = 200
+libs = ['lib']

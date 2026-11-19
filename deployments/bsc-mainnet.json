@@ -1,0 +1,21 @@
+{
+  "project": "AGENTOPIA \u2014 First Settlement",
+  "network": "BNB Chain mainnet",
+  "chainId": 56,
+  "contract": "AgentopiaCore",
+  "address": "0x76b2fd65304a780bb46922a1e05c14848f6d7582",
+  "deployTx": "0x9cb9ff76b970ae128bfe6670616922bb624678a11c856760f9e86fcad68d173a",
+  "block": 134544244,
+  "blockTimestampUtc": "2026-11-19T17:35:34+00:00",
+  "blockTimestampWib": "2026-11-20T00:35:34+07:00",
+  "method": "CreateX.deployCreate2AndInit",
+  "factory": "0xba5Ed099633D3B313e4D5F7bdc1305d3c28ba5Ed",
+  "owner": "0x607cf25614065179a9238705e03e6590c082f56d",
+  "oracle": "0x607cf25614065179a9238705e03e6590c082f56d",
+  "agentIdRegistry": "0x60b9262456de011f7d15a54cdd8c48baaa8b022f",
+  "explorer": "https://bscscan.com/address/0x76b2fd65304a780bb46922a1e05c14848f6d7582",
+  "sourceVerification": "PENDING_BSCSCAN",
+  "compiler": "solc 0.8.30+commit.73712a01 (evmVersion paris, optimizer enabled runs=200, metadata bytecodeHash ipfs, flat source unit AgentopiaCore.sol)",
+  "license": "MIT",
+  "bytecodeReproduction": "deployments/bscscan-standard-input.json \u2014 local flat rebuild byte-matches deployed creation+runtime (verified 20 Nov 2026)"
+}

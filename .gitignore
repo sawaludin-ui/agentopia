@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+artifacts/*.sqlite*
+artifacts/*.log
+.DS_Store
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+contracts/lib/

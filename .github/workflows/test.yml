@@ -1,0 +1,33 @@
+name: Agentopia CI
+on: [push, pull_request]
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Python packages
+        run: pip install -r requirements-dev.txt
+      - name: Python tests
+        run: pytest -q
+      - name: JavaScript syntax check
+        run: node --check web/game.js
+  solidity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: foundry-rs/foundry-toolchain@v1
+      - name: Install forge-std
+        run: |
+          mkdir -p contracts/lib
+          git clone --depth 1 https://github.com/foundry-rs/forge-std contracts/lib/forge-std
+      - name: Compile and test contracts
+        working-directory: contracts
+        run: |
+          forge build
+          forge test -vvv
